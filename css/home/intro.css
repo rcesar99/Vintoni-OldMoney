@@ -1,0 +1,20 @@
+.intro {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  overflow: hidden;
+  margin: 0 88px 0 88px;
+}
+
+.img-intro-content {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
