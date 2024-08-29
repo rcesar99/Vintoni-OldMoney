@@ -2,7 +2,7 @@
 @import "./global/footer.css";
 @import "./global/global.css";
 @import "./global/header.css";
-
+@import "./global/video.css";
 /* Utilidades */
 @import "./utilidade/componentes.css";
 @import "./utilidade/cores.css";
