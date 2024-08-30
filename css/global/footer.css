@@ -20,6 +20,9 @@ footer {
 
 .f-icon span {
   color: var(--cor-6) /* cinza */;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .f-icon img {
