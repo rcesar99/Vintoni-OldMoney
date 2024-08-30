@@ -35,6 +35,11 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transition-delay: 0.2s;
+}
+
+.product-item a:hover {
+  transform: scale(1.01);
 }
 
 .product-item img {
