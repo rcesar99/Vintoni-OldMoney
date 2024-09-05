@@ -64,15 +64,24 @@
 }
 
 .faq-answer {
-  display: none;
-  transition: all 0.3s;
-  padding: 0 0 20px;
+  max-height: 0;
+  overflow: hidden;
   font: normal 400 13px Helvetica, Arial;
   letter-spacing: 0px;
   margin: 0;
   text-align: left;
+  transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
 }
 
 .faq-item.ativo .faq-answer {
-  display: block;
+  max-height: 600px;
+  padding: 0 0 20px;
+}
+
+.icon-faq {
+  transition: transform 0.4s ease-in-out;
+}
+
+.faq-item.ativo .icon-faq {
+  transform: rotate(-180deg);
 }
