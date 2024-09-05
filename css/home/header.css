@@ -1,0 +1,48 @@
+.header-bg {
+  background-image: url(/img/background/golf-bg.jpg);
+  background-size: cover;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.header-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  padding-bottom: 50px;
+}
+
+.header-menu a {
+  color: #f6ffff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem;
+  position: relative;
+}
+
+.header-menu a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -3px;
+  left: 50%;
+  background-color: #f6ffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-menu a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.header-menu a:hover {
+  color: var(--cor-1);
+  transition: 0.3s;
+}

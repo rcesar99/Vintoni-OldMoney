@@ -1,7 +1,7 @@
 /* Global - itens gerais do site */
 @import "./global/footer.css";
 @import "./global/global.css";
-@import "./global/header.css";
+
 @import "./global/video.css";
 /* Utilidades */
 @import "./utilidade/componentes.css";
@@ -10,6 +10,7 @@
 /* Home do Site */
 @import "./home/intro.css";
 @import "./home/section.css";
+@import "./home/header.css";
 
 /* Camisas da home */
 @import "./camisas/shirts.css";
