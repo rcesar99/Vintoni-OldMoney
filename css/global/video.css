@@ -11,7 +11,8 @@
   display: block;
 }
 
-.div-video h2 {
+.div-video h2,
+.div-video p {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,7 +21,12 @@
   font-size: 3rem;
   font-family: "Founders Grotesk text Regular", "sans-serif" !important;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
   border-radius: 4px;
+}
+
+.div-video p {
+  top: 60%;
+  font-size: 2rem;
 }

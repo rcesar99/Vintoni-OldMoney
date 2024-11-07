@@ -1,0 +1,63 @@
+.footer {
+  padding-top: 48px;
+}
+
+.f-gridItens {
+  display: grid;
+  gap: 40px;
+  justify-content: space-evenly;
+  grid-auto-flow: column;
+  grid-template-columns: none;
+}
+
+.f-item {
+  max-width: 325px;
+  word-break: break-word;
+}
+
+.f-item:first-of-type {
+  grid-column: span 2;
+}
+
+#f-inf a {
+  display: inherit;
+  margin-bottom: 1rem;
+  color: inherit;
+}
+
+#f-inf a:hover {
+  color: var(--azul-4);
+  transition: 0.3s ease-in-out;
+}
+
+.f-item p {
+  margin-bottom: 20px;
+  color: rgb(26, 26, 26);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Social Media */
+.grid-socialmedia {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-socialmedia li {
+  box-shadow: 1px 0 rgb(221, 221, 221), 0 1px rgb(221, 221, 221), 1px 1px rgb(221, 221, 221), 1px 0 rgb(221, 221, 221) inset,
+    0 1px rgb(221, 221, 221) inset;
+}
+
+.grid-socialmedia a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 55px;
+}
+
+.grid-socialmedia a:hover {
+  transform: scale(1.1);
+  background-color: var(--azul-4);
+  transition: 0.3s ease-in-out;
+}
